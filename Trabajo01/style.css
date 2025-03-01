@@ -1,0 +1,9 @@
+#map { height: 50%; }
+
+.btnDiv{
+
+    position : absolute;
+    top:20px;
+    left: 100px;
+z-index: index 1000;
+}
