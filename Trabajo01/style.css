@@ -1,9 +1,32 @@
-#map { height: 50%; }
+#map { 
+    height: 50vh;
+}
 
-.btnDiv{
+.btnDiv {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
 
-    position : absolute;
-    top:20px;
-    left: 100px;
-z-index: index 1000;
+.btnDiv button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btnDiv button:hover {
+    background: #0056b3;
+}
+
+/* 🔥 Nuevo código para bajar el texto y que no quede tapado */
+h2, p {
+    margin-top: 80px; /* Ajusta según el tamaño de los botones */
 }
